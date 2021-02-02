@@ -1,0 +1,67 @@
+body {
+    font-family: "trebuchet MS", helvetica, sans-serif;
+    background: #643d87 url(/imagem/fundo.jpg) no-repeat top center;
+}
+
+#container {
+    width: 400px;
+    height: 300px;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 120px;
+    text-align: center;
+}
+
+#container img {
+    width: 120px;
+    height: 120px;
+    margin-top: -60px;
+    margin-bottom: 30px; 
+}
+
+input{
+    height: 30px;
+    width: 80%;
+    font-size: 17px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding-left: 40px;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: 10px;
+
+}
+
+input[type="submit"]{
+    width:40% ;
+    margin-top: 10px;
+    height: 45px;
+    font-size: 18 ;
+    background: #FD9703;
+    padding-right: 40px;
+    color: rgb(255, 255, 255);
+    
+}
+
+input:hover {
+    background: #ffd08a;
+    background-repeat: no-repeat;
+    background-position: 10px;
+    border: 1.99px solid rgb(134, 134, 134);
+}
+
+input#bnt:hover  {
+    background: #e48900;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    
+}
+
+input.email {
+    background-image: url(/imagem/icone-usuario.png) ;
+}
+
+input.senha {
+    background-image: url(/imagem/icone-cadeado.png);
+}
